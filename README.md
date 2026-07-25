@@ -1,5 +1,7 @@
 # zsh-preview
 
+**English** | [简体中文](./README_zh-CN.md)
+
 An interactive alias finder for [Zsh](https://www.zsh.org/). As you type a command, it fuzzy-matches your aliases and shows the most relevant ones right in the terminal — then lets you pick one with a single keystroke.
 
 ![Demo](./demo.gif)
