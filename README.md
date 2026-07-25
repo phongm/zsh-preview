@@ -2,8 +2,7 @@
 
 An interactive alias finder for [Zsh](https://www.zsh.org/). As you type a command, it fuzzy-matches your aliases and shows the most relevant ones right in the terminal — then lets you pick one with a single keystroke.
 
-<!-- Demo GIF coming soon -->
-> 🎬 *Demo GIF coming soon.*
+![Demo](./demo.gif)
 
 If you rely on short aliases (`gco`, `gcm`, `dps`, …) but can never remember exactly which one does what, this plugin shows you the top matches live and lets you insert one instantly — no more guessing, no more `alias | grep`.
 
@@ -47,7 +46,7 @@ The selected **alias name** is inserted into your command line (e.g. `gco`), pre
 1. Clone this repo into your custom plugins directory:
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/zsh-preview \
+git clone https://github.com/phongm/zsh-preview \
   ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-preview
 ```
 
